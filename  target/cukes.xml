@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.527">
+<testcase classname="F01_Registration | guest users can create new accounts for them" name="user could be able to create new account with valid data" time="13.305">
+<system-out><![CDATA[Given user go to register page..............................................passed
+When user enter gender type.................................................passed
+And user enter "mohamed" and "Tharwat"......................................passed
+And user enter Date of birth................................................passed
+And user enter "eng.mohamed.s24kajgrwat@gkr4mairlll.com" email..............passed
+And user enter "Voda@2023" password and Confirm password....................passed
+And user Click on Register button...........................................passed
+Then account is created sucessfully.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
