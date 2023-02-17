@@ -47,12 +47,12 @@ public class D01_registerStepDef {
     }
 
 
-    @And("user enter  email" )
-    public void userEnter( ) {
+    @And("user enter {string} email" )
+    public void userEnter(String email ) {
         //generate randome email
-        Faker fake = new Faker();
-       String emailfake= fake.internet().safeEmailAddress();
-        register.Email.sendKeys(emailfake);
+      //  Faker fake = new Faker();
+        // String emailfake= fake.internet().safeEmailAddress();
+        register.Email.sendKeys(email);
     }
 
 
@@ -81,4 +81,6 @@ public class D01_registerStepDef {
 
         soft.assertAll();
     }
+
+
 }

@@ -28,8 +28,6 @@ public class Hooks {
 
         // open URL
         driver.navigate().to("https://demo.nopcommerce.com/  ");
-
-
         System.out.println("open Browser");
     }
 
